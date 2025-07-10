@@ -1,6 +1,6 @@
 <h1 align="center">🩺 PulseMed+</h1>
   
-**AI-powered Rural Healthcare Assistant for Smart Diagnosis & SOS Alerts**
+<h3 align="center">AI-powered Rural Healthcare Assistant for Smart Diagnosis & SOS Alerts</h3>
 
 PulseMed+ bridges the healthcare accessibility gap in rural areas by combining AI-driven diagnosis, vitals monitoring, speech input, and emergency SMS alerts — all integrated with Firebase and Pinecone for real-time decision-making.
 
