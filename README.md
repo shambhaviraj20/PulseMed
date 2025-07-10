@@ -120,7 +120,10 @@ PulseMed bridges the healthcare accessibility gap in rural areas by combining AI
 
 This project is under the MIT License. Use freely, credit responsibly.
 
-<p align="center"><sub><strong>Made with 💫 by Shambhavi</strong></sub></p>
-<p align="center"><sub><strong>[GitHub](https://github.com/shambhaviraj20) • [LinkedIn](https://linkedin.com/in/shambhaviraj) • [Portfolio](https://shambhavirajportfolio.framer.website)</strong></sub></p>
-<p align="center"><sub><strong>This project was built with ❤️ for solving real-world healthcare accessibility challenges using AI and IoT.</strong></sub></p>
+<br>
+<p align="center">
+  <sub><strong>Made with 💫 by Shambhavi</strong></sub><br>
+  <sub><a href="https://github.com/shambhaviraj20">GitHub</a> • <a href="https://linkedin.com/in/shambhaviraj">LinkedIn</a> • <a href="https://shambhavirajportfolio.framer.website">Portfolio</a></sub><br>
+  <sub><strong>This project was built with ❤️ to solve real-world healthcare accessibility challenges using AI and IoT.</strong></sub>
+</p>
 
