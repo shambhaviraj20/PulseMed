@@ -30,6 +30,23 @@ PulseMed+ bridges the healthcare accessibility gap in rural areas by combining A
 
 ---
 
+## 📸 Screenshots
+
+### 🧠 AI Diagnosis Output
+<img src="./screenshots/diagnosis.png" alt="AI Diagnosis Output" width="600"/>
+
+---
+
+### 📝 Symptom Input Form (React UI)
+<img src="./screenshots/form.png" alt="Symptom Input Form" width="600"/>
+
+---
+
+### 📤 SOS Alert Sent via Twilio
+<img src="./screenshots/sms.png" alt="Twilio SOS Message" width="600"/>
+
+---
+
 ## 🏗️ Project Architecture
 
 ### 🔹 Root Folder
