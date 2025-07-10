@@ -31,17 +31,15 @@ PulseMed bridges the healthcare accessibility gap in rural areas by combining AI
 
 ## 🏗️ Project Architecture
 
-|-- ML/
-| |-- app.ipynb # Main LangChain-based chatbot with RAG
-| |-- sos_msg.ipynb # Firebase + Twilio integration
-| |-- prompt.ipynb # Prompt template development
-|
-|-- frontend/
-| |-- src/ # React interface (diagnosis & input)
-| |-- public/ # Frontend assets
-|
-|-- firebase2.py # Optional fallback Firebase client
-|-- FINAL_FINAL.ino # Arduino firmware for vitals sensor
+-ML/
+-- app.ipynb # Main LangChain-based chatbot with RAG
+-- sos_msg.ipynb # Firebase + Twilio integration
+-- prompt.ipynb # Prompt template development
+- frontend/
+-- src/ # React interface (diagnosis & input)
+-- public/ # Frontend assets
+- firebase2.py # Optional fallback Firebase client
+- FINAL_FINAL.ino # Arduino firmware for vitals sensor
 
 
 ---
@@ -68,26 +66,26 @@ PulseMed bridges the healthcare accessibility gap in rural areas by combining AI
    git clone git@github.com:shambhaviraj20/PulseMed.git
    cd PulseMed
 2. **Create a .env file in root**
-  OPENAI_API_KEY=sk-...
-  TWILIO_ACCOUNT_SID=AC...
-  TWILIO_AUTH_TOKEN=...
-  PINECONE_API_KEY=pcsk-...
-  PINECONE_ENVIRONMENT=us-east-1
-  PINECONE_INDEX_NAME=medbot
-3. **Install dependencies**
+  - OPENAI_API_KEY=sk-...
+  - TWILIO_ACCOUNT_SID=AC...
+  - TWILIO_AUTH_TOKEN=...
+  - PINECONE_API_KEY=pcsk-...
+  - PINECONE_ENVIRONMENT=us-east-1
+  - PINECONE_INDEX_NAME=medbot
+4. **Install dependencies**
    pip install
-4. **Run the system**
+5. **Run the system**
 - Backend notebooks via Jupyter or Python
 - Frontend with: npm start
 
 ---
-📣 Team & Credits
-Team Members: Shambhavi Raj, Shravya Bhandary, Shardul Bangale, Sarthak Patil, Prasanna Tupe, Vishwanath Mishra
-Achievement: Team Meraki Titans - BITS APOGEE '25 Finalists
+## 📣 Team & Credits
+**Team Members:** Shambhavi Raj, Shravya Bhandary, Shardul Bangale, Sarthak Patil, Prasanna Tupe, Vishwanath Mishra
+**Achievement:** Team Meraki Titans - BITS APOGEE '25 Finalists
 
 ---
 
-📌 Future Scope
+## 📌 Future Scope
 - Patient-facing mobile app
 - Doctor dashboard for remote diagnosis
 - Integration with government e-health systems
@@ -95,13 +93,10 @@ Achievement: Team Meraki Titans - BITS APOGEE '25 Finalists
 
 ---
 
-🛡️ License
+## 🛡️ License
 This project is under the MIT License. Use freely, credit responsibly.
 
-## 👩‍💻 Created By
-
-**Shambhavi Raj**  
+<p align="center"><sub><strong>Made with 💫 by Shambhavi</strong></sub>
 [GitHub](https://github.com/shambhaviraj20) • [LinkedIn](https://linkedin.com/in/shambhaviraj) • [Portfolio](https://shambhavirajportfolio.framer.website)
-
-This project was built with ❤️ for solving real-world healthcare accessibility challenges using AI and IoT.
+This project was built with ❤️ for solving real-world healthcare accessibility challenges using AI and IoT. </p>
 
