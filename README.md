@@ -31,16 +31,39 @@ PulseMed bridges the healthcare accessibility gap in rural areas by combining AI
 
 ## 🏗️ Project Architecture
 
--ML/
--- app.ipynb # Main LangChain-based chatbot with RAG
--- sos_msg.ipynb # Firebase + Twilio integration
--- prompt.ipynb # Prompt template development
-- frontend/
--- src/ # React interface (diagnosis & input)
--- public/ # Frontend assets
-- firebase2.py # Optional fallback Firebase client
-- FINAL_FINAL.ino # Arduino firmware for vitals sensor
+### 🔹 Root Folder
+- `README.md` — Project overview and documentation  
+- `.gitignore` — Ignore list (includes `.env`, cache, node_modules, etc.)  
+- `requirements.txt` — Python dependencies  
+- `FINAL_FINAL.ino` — Arduino sketch to collect vitals  
+- `firebase2.py` — Firebase client script  
+- `Chatbot` — Chat UI logic or placeholder (rename if needed)
 
+---
+
+### 🔹 ML/ (Backend & LangChain)
+- `app.ipynb` — Main LangChain chatbot (with Pinecone + OpenAI)  
+- `sos_msg.ipynb` — Fetches vitals & sends SOS alerts via Twilio  
+- `prompt.ipynb` — Prompt engineering experiments  
+- `Libraries.ipynb` — Library setup & testing
+
+---
+
+### 🔹 frontend/ (React UI)
+- `public/` — HTML, favicon, manifest  
+- `src/` — React source code:
+  - `App.js` — Main logic  
+  - `Diagnosis.js` — AI-based medical response  
+  - `PatientData.js` — Symptom & vitals form  
+  - `firebase.js` — Firebase config  
+  - `App.css`, `index.js`, etc.
+
+---
+
+📦 Organized for clarity:  
+- 🧠 AI diagnosis (ML/)  
+- 🎛️ React interface (frontend/)  
+- ⚡ Real-time sensors + alerts (`.ino`, Firebase, Twilio)
 
 ---
 
@@ -80,8 +103,8 @@ PulseMed bridges the healthcare accessibility gap in rural areas by combining AI
 
 ---
 ## 📣 Team & Credits
-**Team Members:** Shambhavi Raj, Shravya Bhandary, Shardul Bangale, Sarthak Patil, Prasanna Tupe, Vishwanath Mishra
-**Achievement:** Team Meraki Titans - BITS APOGEE '25 Finalists
+- **Team Members:** Shambhavi Raj, Shravya Bhandary, Shardul Bangale, Sarthak Patil, Prasanna Tupe, Vishwanath Mishra
+- **Achievement:** Team Meraki Titans - BITS APOGEE '25 Finalists
 
 ---
 
@@ -94,9 +117,10 @@ PulseMed bridges the healthcare accessibility gap in rural areas by combining AI
 ---
 
 ## 🛡️ License
+
 This project is under the MIT License. Use freely, credit responsibly.
 
-<p align="center"><sub><strong>Made with 💫 by Shambhavi</strong></sub>
-[GitHub](https://github.com/shambhaviraj20) • [LinkedIn](https://linkedin.com/in/shambhaviraj) • [Portfolio](https://shambhavirajportfolio.framer.website)
-This project was built with ❤️ for solving real-world healthcare accessibility challenges using AI and IoT. </p>
+<p align="center"><sub><strong>Made with 💫 by Shambhavi</strong></sub></p>
+<p align="center"><sub><strong>[GitHub](https://github.com/shambhaviraj20) • [LinkedIn](https://linkedin.com/in/shambhaviraj) • [Portfolio](https://shambhavirajportfolio.framer.website)</strong></sub></p>
+<p align="center"><sub><strong>This project was built with ❤️ for solving real-world healthcare accessibility challenges using AI and IoT.</strong></sub></p>
 
